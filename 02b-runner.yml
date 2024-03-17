@@ -1,0 +1,12 @@
+name: 02b runner
+on: 
+  push:
+    branches: ["main"]
+jobs:
+  info-runner:
+    runs-on: ubuntu-latest
+    steps:
+      - name: verificar os y arquitectura
+        run: |
+          echo "sistema operativo ${{ runner.os }}"
+          echo "arquitectura ${{ runner.arch }}"
