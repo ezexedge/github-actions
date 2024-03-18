@@ -9,8 +9,8 @@ jobs:
     name: Uso acción javascript
     steps:
       - id: javascript
-        uses: brainsdevops/gha-javascript-hola@v1
+        uses: ezexedge/github-actions@v2
         with:
-          nombre: "Juan"
+          nombre: "PEPA"
       - name: El saludo
         run: echo "${{steps.javascript.outputs.saludo}}"
