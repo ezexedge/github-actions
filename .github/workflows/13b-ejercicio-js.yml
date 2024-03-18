@@ -9,7 +9,7 @@ jobs:
     name: Uso acción javascript
     steps:
       - id: javascript
-        uses: ezexedge/github-actions@v2
+        uses: ezexedge/github-actions
         with:
           nombre: "PEPA"
       - name: El saludo
